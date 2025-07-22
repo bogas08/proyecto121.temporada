@@ -5,7 +5,7 @@ public class Actividad {
     protected String idAct;
     protected String tema;
     protected int duracion;
-    //protected participantes p[]=new [100];
+    protected participantes p[]=new participantes[100];
 
     public Actividad(String idAct, String tema, int duracion) {
         this.idAct = idAct;
